@@ -74,9 +74,9 @@ SRM concept originally developed by [Bird](https://github.com/GeorgeBird1/Spotli
 
 ## 🧭 Authors:
 
-Gemini 2.5 experimental via aistudio.com (web client) - coding and validation
-GPT4o via OpenAI.com (web client) - QA, design, and validation
-Nick Blood - design, ideation, project management, QA
+Gemini 2.5 experimental via aistudio.com (web client) - coding and validation 
+GPT4o via OpenAI.com (web client) - QA, design, and validation 
+Nick Blood - design, ideation, project management, QA 
 This project was built as a hybrid collaboration between human insight and AI tooling. Tool versions and platforms are noted here for transparency and reproducibility.
 
 ---
