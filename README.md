@@ -51,6 +51,20 @@ This repo includes both baseline SRM workflows and **targeted experimental exten
 
 ---
 
+## ⚠️ Path Handling Note
+
+All scripts in this repository assume that they are run **from the root directory of the repo**, even if the script itself is located in `/scripts`.
+
+For example, run scripts like this:
+
+```bash
+python scripts/capture_baseline_activations.py --prompt_file promptsets/your_prompts.txt
+```
+
+Avoid running them from inside `/scripts` directly unless you manually adjust relative paths. This ensures that file loading (e.g., `promptsets/`, `experiments/`, or `docs/`) works consistently across systems and collaborators.
+
+---
+
 ## 📝 Documentation
 
 You can find the complete v6 documentation, including installation, workflow steps, and theory notes here:
@@ -66,10 +80,13 @@ SRM concept originally developed by [Bird](https://github.com/bird-quartz/srm). 
 
 ---
 
-## 🧭 Author
+## 🧭 Authors
 
-**Nick Blood**  
-Experimental designer, interpretability naturalist, conceptual drifter.
+- **Nick Blood** – Design, ideation, project management, QA  
+- **Gemini 2.5 (via aistudio.com)** – Coding and validation (experimental web client)  
+- **GPT-4o (via chat.openai.com)** – QA, design refinement, documentation guidance  
+
+This project was built as a hybrid collaboration between human insight and AI tooling. Tool versions and platforms are noted here for transparency and reproducibility.
 
 ---
 
