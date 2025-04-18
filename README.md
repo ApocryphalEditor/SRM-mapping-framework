@@ -6,7 +6,7 @@
 
 ## 🌀 What Is This?
 
-**SRM Resonance Mapper** is a fully modular Python framework for conducting geometric interpretability experiments in transformer models. It builds on the original [Spotlight Resonance Method (SRM)](https://github.com/bird-quartz/srm) proposed by Bird, extending it into a flexible system for:
+**SRM Resonance Mapper** is a fully modular Python framework for conducting geometric interpretability experiments in transformer models. It builds on the original [Spotlight Resonance Method (SRM)](https://github.com/GeorgeBird1/Spotlight-Resonance-Method) proposed by Bird, extending it into a flexible system for:
 
 - Capturing and projecting internal activation vectors
 - Constructing 2D basis planes from prompt-derived contrast sets
@@ -62,7 +62,7 @@ You can find the complete v6 documentation, including installation, workflow ste
 ## 📄 License
 
 MIT License (see LICENSE file).  
-SRM concept originally developed by [Bird](https://github.com/bird-quartz/srm). This project extends the method with additional tools, structure, and visualization workflows.
+SRM concept originally developed by [Bird](https://github.com/GeorgeBird1/Spotlight-Resonance-Method). This project extends the method with additional tools, structure, and visualization workflows.
 
 ---
 
