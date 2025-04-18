@@ -72,10 +72,11 @@ SRM concept originally developed by [Bird](https://github.com/GeorgeBird1/Spotli
 
 ---
 
-## 🧭 Author
+## 🧭 Authors:
 
-**Nick Blood**  
-Experimental designer, interpretability naturalist, conceptual drifter.
+Gemini 2.5 experimental via aistudio.com (web client)
+GPT4o via OpenAI.com (web client)
+Nick Blood. Experimental designer, interpretability naturalist, conceptual drifter.
 
 ---
 
