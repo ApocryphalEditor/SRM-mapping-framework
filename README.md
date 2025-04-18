@@ -51,10 +51,10 @@ This repo includes both baseline SRM workflows and **targeted experimental exten
 ---
 ## ⚠️ Path Handling Note
 All scripts in this repository assume that they are run from the root directory of the repo, even if the script itself is located in /scripts.
-
 For example, run scripts like this:
-python scripts/capture_baseline_activations.py --prompt_file promptsets/your_prompts.txt
+_python scripts/capture_baseline_activations.py --prompt_file promptsets/your_prompts.txt_
 Avoid running them from inside /scripts directly unless you manually adjust relative paths. This ensures that file loading (e.g., promptsets/, experiments/, or docs/) works consistently across systems and collaborators.
+
 ---
 
 ## 📝 Documentation
