@@ -6,7 +6,7 @@
 
 ## 🌀 What Is This?
 
-**SRM Resonance Mapper** is a fully modular Python framework for conducting geometric interpretability experiments in transformer models. It builds on the original [Spotlight Resonance Method (SRM)](https://github.com/bird-quartz/srm) proposed by Bird, extending it into a flexible system for:
+**SRM Resonance Mapper** is a fully modular Python framework for conducting geometric interpretability experiments in transformer models. It builds on the original [Spotlight Resonance Method (SRM)](https://github.com/GeorgeBird1/Spotlight-Resonance-Method) proposed by Bird, extending it into a flexible system for:
 
 - Capturing and projecting internal activation vectors
 - Constructing 2D basis planes from prompt-derived contrast sets
@@ -42,12 +42,18 @@ This repo includes both baseline SRM workflows and **targeted experimental exten
 ## 📦 Repository Structure
 
 ```
-/scripts            → All capture, basis, and analysis scripts
+/scripts            → All capture, basis, and analysis scripts.
 /promptsets         → Example structured prompt files
 /docs               → Full PDF documentation of the framework
 /examples           → Optional: Compass Roses and plots (to be added)
 /experiments        → Your output folder after running any captures
 ```
+---
+## ⚠️ Path Handling Note
+All scripts in this repository assume that they are run from the root directory of the repo, even if the script itself is located in /scripts.
+For example, run scripts like this:
+_python scripts/capture_baseline_activations.py --prompt_file promptsets/your_prompts.txt_
+Avoid running them from inside /scripts directly unless you manually adjust relative paths. This ensures that file loading (e.g., promptsets/, experiments/, or docs/) works consistently across systems and collaborators.
 
 ---
 
@@ -76,7 +82,7 @@ You can find the complete v6 documentation, including installation, workflow ste
 ## 📄 License
 
 MIT License (see LICENSE file).  
-SRM concept originally developed by [Bird](https://github.com/bird-quartz/srm). This project extends the method with additional tools, structure, and visualization workflows.
+SRM concept originally developed by [Bird](https://github.com/GeorgeBird1/Spotlight-Resonance-Method). This project extends the method with additional tools, structure, and visualization workflows.
 
 ---
 
