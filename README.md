@@ -67,9 +67,9 @@ Avoid running them from inside `/scripts` directly unless you manually adjust re
 
 ## 📝 Documentation
 
-You can find the complete v6 documentation, including installation, workflow steps, and theory notes here:
+Including installation, workflow steps, and theory notes here:
 
-📄 [`/docs/SRM_v6_Documentation.pdf`](./docs/SRM_v6_Documentation.pdf)
+📄 [Version 6 Documentation](https://github.com/ApocryphalEditor/SRM-mapping-framework/blob/main/docs/v6%20Documentation.pdf)
 
 ---
 
