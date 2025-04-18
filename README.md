@@ -51,7 +51,9 @@ This repo includes both baseline SRM workflows and **targeted experimental exten
 
 ---
 
-## ⚠️ Path Handling Note
+## ⚠️ File and Path Handling Note
+
+Window's Maximum Path Length Limitations can cause issues with saving files that (for now) have long, descriptive names: Group Policy changes may be required. 
 
 All scripts in this repository assume that they are run **from the root directory of the repo**, even if the script itself is located in `/scripts`.
 
